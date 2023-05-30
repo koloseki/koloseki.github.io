@@ -1,0 +1,96 @@
+header{
+    height: 100dvh;
+    background-color: #001220 ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .MyName{
+    font-size: 3rem;
+    color: snow;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: 1;
+}
+
+.MyName > *{
+    margin: 0;
+}
+
+
+
+/*Custom wave*/
+
+.space{
+    position: absolute;
+    right: 0;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Wave{
+    transition: 1s ease-in-out;
+    z-index: 4;
+}
+
+.WavePlus:hover{
+    transform: translateX(-50px);
+    transition: 1s ease-in-out;
+}
+
+.WaveMinus:hover{
+    transform: translateX(50px);
+    transition: 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/*bottom*/
+.custom-shape-divider-bottom-1685210990 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1685210990 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+}
+
+.custom-shape-divider-bottom-1685210990 .shape-fill {
+    fill: #FFFAFA;
+}
+
+@media (max-width: 575.98px) {
+
+    header > .MyName{
+        font-size: 2rem;
+        margin: 0;
+        top: 25%;
+        left: 10%;
+
+    }
+
+
+    .custom-shape-divider-bottom-1685210990 svg {
+        height: 40px;
+    }
+}

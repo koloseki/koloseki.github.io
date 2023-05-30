@@ -1,0 +1,67 @@
+main{
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > h2{
+    background-color: snow;
+    color: #141414;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    margin: 0;
+}
+
+main > p {
+    background-color: snow;
+    color: #141414;
+    margin: 5vh 0;
+    max-width: 25vw;
+}
+
+.About-me{
+    background-color: snow;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Flip {
+    rotate: 270deg;
+}
+
+.About-me > h2{
+    background-color: snow;
+     color: #141414;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    margin: 0;
+}
+
+.About-me > p {
+    background-color: snow;
+    color: #141414;
+    margin: 5vh 0;
+    max-width: 25vw;
+}
+
+.Skills{
+    background-color: snow;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15vw;
+}
+.Skills > *{
+    border: 1px solid #141414;
+}
+
+.Projects{
+    margin-bottom: 20dvh;
+}

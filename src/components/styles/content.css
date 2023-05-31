@@ -22,6 +22,12 @@ main > p {
     max-width: 25vw;
 }
 
+
+
+.Content{
+    margin-top: 15dvh;
+}
+
 .About-me{
     background-color: snow;
     display: flex;
@@ -51,17 +57,184 @@ main > p {
 }
 
 .Skills{
-    background-color: snow;
     display: flex;
     margin-top: 5vh;
     justify-content: space-between;
     align-items: center;
-    gap: 15vw;
+    padding: 0 2rem;
+    max-width: 50vw;
+    border-bottom: 1px solid #333333;
 }
-.Skills > *{
-    border: 1px solid #141414;
+
+.Blacked{
+    background-color: #141414;
 }
+
+.Languages_Tools_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0 3rem 0;
+}
+
+h4{
+    color: #141414;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem 0 2rem 0 ;
+    margin: 0;
+}
+
+
+.Languages_Tools{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 4rem;
+    max-width: 20vw;
+}
+
+.Left{
+    border-left: 1px solid #333333 ;
+}
+
+.Languages_Tools > a{
+    text-decoration: none;
+    color: #141414;
+}
+
+
+
+.Skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.Skill:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .Projects{
     margin-bottom: 20dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhotoSection{
+    display: flex;
+    justify-content: center;
+}
+
+.PhotoSection > button{
+    cursor: pointer;
+    background-color: snow;
+    border: none;
+    color: #333333;
+    padding: 1rem;
+    transition: .3s;
+}
+
+.PhotoSection > button:hover{
+    background-color: hsla(0, 100%, 0%, 0.1);
+}
+
+.LeftArrow{
+    transform: rotate(-90deg);
+}
+.RightArrow{
+    transform: rotate(90deg);
+}
+
+.TitleLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 40vw;
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .Project > img {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    main{
+        margin-top: 10vh;
+    }
+    main > h2{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    main > p{
+        max-width: 80vw;
+    }
+    .About-me{
+        margin-top: 5vh;
+    }
+    .About-me > h2{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .About-me > p{
+        max-width: 80vw;
+    }
+    .Skills{
+        flex-direction: column;
+        gap: 5vh;
+        max-width: 80vw;
+    }
+    .Skills > *{
+        max-width: 80vw;
+    }
+    .Languages_Tools_container{
+        gap: 1rem;
+    }
+    .Languages_Tools{
+        max-width: 80vw;
+    }
+    .Projects{
+        margin-bottom: 10dvh;
+    }
+    .Project > img {
+        width: 100%;
+    }
 }

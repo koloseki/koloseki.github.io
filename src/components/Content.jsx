@@ -12,9 +12,9 @@ import vite_logo from '/src/assets/SkillsSvg/vite-logo.svg';
 import bootstrap_logo from '/src/assets/SkillsSvg/bootstrap-logo.svg';
 import live_logo from '/src/assets/SkillsSvg/live-logo.svg';
 import faChevronUp from '/src/assets/faChevronUp.svg';
-import WeatherAppPhoto from '/public/weather-laptop.jpg';
-import PomidorPhoto from '/public/pomidro-mobile.jpg';
-import EtchaSketchPhoto from '/public/EtchASketch.jpg';
+import WeatherAppPhoto from '/weather-laptop.jpg';
+import PomidorPhoto from '/pomidro-mobile.jpg';
+import EtchaSketchPhoto from '/EtchASketch.jpg';
 
 
 const Skill = "Skill";

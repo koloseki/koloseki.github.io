@@ -44,6 +44,10 @@ footer {
     height:10%
 }
 
+.left-section > button:hover {
+    scale: 1.1;
+}
+
 .left-section > .Contact {
     display:flex;
     gap:1rem
@@ -99,9 +103,7 @@ form > button {
 }
 
 form > button:hover {
-    background-color:#141414;
-    color:#fffafa;
-    border:1px solid #fffafa
+   scale: 0.9;
 }
 
 .NameField {
@@ -139,6 +141,15 @@ textarea {
     padding:1em
 }
 
+input:focus, textarea:focus {
+    outline:none;
+    border:1px solid #333
+}
+
+.animated-svg:hover > .shape-fill{
+    fill: #FA7268 ;
+}
+
 .CreatedBy {
     text-align:center
 }
@@ -161,7 +172,6 @@ textarea {
 
     .left-section {
         height:100%;
-        padding:0;
         justify-content:space-between;
         align-items:center
     }

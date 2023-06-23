@@ -79,13 +79,18 @@ main > p {
     padding: 1rem 0 3rem 0;
 }
 
-h4{
+.Languages_Tools_container > h4{
     color: #141414;
     font-weight: lighter;
     text-align: center;
     font-size: 1.5rem;
     padding: 3rem 0 2rem 0 ;
     margin: 0;
+    transition: .3s;
+}
+
+.Languages_Tools_container > h4:hover{
+    letter-spacing: 4px;
 }
 
 
